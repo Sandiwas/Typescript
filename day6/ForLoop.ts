@@ -12,11 +12,11 @@ console.log(i);
 
 //Example 2: print even numbers between 1---10
 //Method 1 
-/* for(let i=1;i<=10;i++){
+for(let i=1;i<=10;i++){
     if(i%2==0){
         console.log(i);
     }
-} */
+}
 
 //Method 2 
 /* for(let i=2;i<=10;i+=2){
@@ -29,9 +29,9 @@ console.log(i)
 } */
 
 //Example4:
-let i:number;  //global
-for(i=0;i<=5;i++){
-console.log(i)
-}
+// let i:number;  //global
+// for(i=0;i<=5;i++){
+// console.log(i)
+// }
 
-console.log(i)
+// console.log(i)

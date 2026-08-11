@@ -27,8 +27,8 @@ let names:string[]=[];
 let details:string[]=["sandip","gahudas","wasekar"];
  */
 
-let sum=(a:number,b:number):number =>{
-return (a+b);
-}
+let sum = (a: number, b: number): number => {
+  return a + b;
+};
 
-console.log(`sum is ${sum(5,10)}`)
+console.log(`sum is ${sum(5, 10)}`);
