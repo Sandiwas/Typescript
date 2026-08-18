@@ -17,7 +17,21 @@ class FindDuplicateCharCount {
       }
     }
   }
+  static makeLowerCase(str: string): string {
+    let lowerCase = "";
+    for (let i = 0; i < str.length; i++) {
+      let ch = str.charAt(i);
+      if (ch !== " ") {
+        if (ch >= "A" && ch <= "Z") {
+          ch = String.fromCharCode(ch.charCodeAt(0) + 32);
+        }
+        lowerCase += ch;
+      }
+    }
+    return lowerCase;
+  }
 }
 
-let str = "automation";
+let str = "Au tomation";
+str = FindDuplicateCharCount.makeLowerCase(str);
 FindDuplicateCharCount.findDuplicateChar(str);
