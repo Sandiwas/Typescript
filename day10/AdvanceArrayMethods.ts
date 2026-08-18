@@ -182,3 +182,5 @@ console.log("Are all Greater Than One?", allGreathanOne); // Output: false
 
 let allPositive = numbers.every((ele) => ele > 0);
 console.log("Are all numbers positive?", allPositive); // Output: true
+
+//=============================================================================
