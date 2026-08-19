@@ -140,13 +140,13 @@ console.log("Element greater than 3  in array : ", filterNumber); // Output: [4,
 // }
 
 // console.log("total sum of elements in numbers array : ", total);
-/* 
+
 let reduceResult=numbers.reduce((total,ele)=>{
     return total+ele;
 },0)  // Initial value of accumulator is 0
 
 console.log("Reduced Result (Total of an Array): ", reduceResult);
- */
+
 //or
 
 // let reduceResult=numbers.reduce((total,ele)=>total+ele,0)
@@ -154,7 +154,6 @@ console.log("Reduced Result (Total of an Array): ", reduceResult);
 // console.log("Reduced Result (Total of an Array): ", reduceResult);
 
 //=============================================================================
-
 // 5. some() - Checks if any element satisfies a condition
 // Returns true if at least one element passes the condition, else false
 
