@@ -54,7 +54,7 @@ console.log(multiply(20,3))
 /* 
 //Example 4 : Named function with optional paramater
 
- let displayDetails=(id: number, name: string, email?: string): void =>{
+ let displayDetails=(id: number, name: string, email?:  string): void =>{
   console.log("Id :", id);
   console.log("Name :", name);
   if (email != undefined) {
