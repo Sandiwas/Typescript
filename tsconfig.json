@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "ES2016",
-    "lib": ["ES2016", "DOM"],
+    "lib": ["ES2016", "DOM", "ES2019"],
     "moduleDetection": "force",
     "strict": true
   }
