@@ -16,25 +16,23 @@ class Parent {
 class Child extends Parent {
   num: number = 20;
   constructor() {
-    super();// this will call parent class constructor (must be called)
+    super(); // this will call parent class constructor (must be called)
     console.log("This is child class constructor...");
   }
 
-  show(){
+  show() {
     //console.log(super.num); // parent's num //TS doesn't support super.num to access parent class properties directly like Java does.
     console.log(this.num);
-    console.log("This is show() method from teh child class...");
+    console.log("This is show() method from the child class...");
   }
 
-     //overrided method
-    display()
-    {
-        console.log("This is display() method from child class....")
-        super.display() // This will inoke paranet class method
-    }
+  //overrided method
+  display() {
+    console.log("This is display() method from child class....");
+    super.display(); // This will inoke paranet class method
+  }
 }
 
-
-let c1=new Child();
+let c1 = new Child();
 c1.show();
 c1.display();
