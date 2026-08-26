@@ -31,4 +31,8 @@ let cal2 = new Calculator(2, 3);
 
 //Method overloading
 console.log("adding two number : ", cal1.add(10, 20));
+console.log("adding two number : ", cal1.add(10, 20, 30));
+
+
+console.log("adding two number : ", cal2.add(10, 20));
 console.log("adding two number : ", cal2.add(10, 20, 30));
