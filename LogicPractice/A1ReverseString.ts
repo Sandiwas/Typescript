@@ -1,14 +1,21 @@
-class ReverseString {
-  static reverseString(str: string): string {
-    let reverse: string = "";
-    for (let i = str.length - 1; i >= 0; i--) {
-      reverse = reverse + str.charAt(i);
-    }
-    return reverse;
+class RevrseString {
+  public static main(): void {
+    let str: string = "Auto mation";
+    str=RevrseString.removeSpaceMakelowerCase(str);
+    str=RevrseString.reverseString(str);
+    console.log("Reverse String is : ",str)
   }
 
-  static removeSpaceMakeLowerCase(str: string): string {
-    let lowerCase: string = "";
+  public static reverseString(str: string): string {
+    let result = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+      result += str.charAt(i);
+    }
+    return result;
+  }
+
+  public static removeSpaceMakelowerCase(str: string) {
+    let lowerCase = "";
     for (let i = 0; i < str.length; i++) {
       let ch = str.charAt(i);
       if (ch !== " ") {
@@ -22,7 +29,5 @@ class ReverseString {
   }
 }
 
-let str: string = "Auto mation";
-str=ReverseString.removeSpaceMakeLowerCase(str)
-str=ReverseString.reverseString(str)
-console.log(str)
+
+RevrseString.main();
