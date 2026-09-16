@@ -4,7 +4,7 @@ class PrintPrimeNumber {
     this.printPrimeNumber(n);
   }
 
-  public static printPrimeNumber(n: number) {
+  public static printPrimeNumber(n: number): void {
     let prime: number[] = [];
     let s;
     for (let i = 2; i < n; i++) {
