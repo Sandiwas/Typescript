@@ -36,3 +36,17 @@ get()                        get()
 keySet()                     keys()
 System.out.println()         console.log() 
 */
+
+
+/* The most important part
+map.set(ch, map.get(ch)! + count);
+
+Remember:
+map.get(ch) → number | undefined
+
+Because the else executes only when the key already exists, you know the value is there.
+So:
+map.get(ch)!
+means:
+"Treat the result as a number, not undefined."
+ */
