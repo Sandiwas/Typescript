@@ -14,7 +14,7 @@ class DuplicateElementUsingSet {
         mySet.add(ele);
       }
     }
-    console.log(duplicate.join(" "));
+    console.log("Duplicate Element in Array : ",duplicate.join(" "));
     console.log(mySet);
     console.log(Array.from(mySet));
   }
