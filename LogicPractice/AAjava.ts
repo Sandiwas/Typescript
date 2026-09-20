@@ -42,3 +42,48 @@
 | Check Key         | `map.containsKey("A")`                     | `map.has("A")`                           |
 | Sort Array        | `Arrays.sort(arr);`                        | `arr.sort((a,b)=>a-b);`                  |
  */
+
+
+
+/* | Java                                            | TypeScript                                   |
+| ----------------------------------------------- | -------------------------------------------- |
+| `HashMap<Character, Integer>`                   | `Map<string, number>`                        |
+| `Map<Character, Integer> map = new HashMap<>()` | `const map: Map<string, number> = new Map()` |
+| `char[] arr = str.toCharArray()`                | `const arr = str.split("")`                  |
+| `map.containsKey(ch)`                           | `map.has(ch)`                                |
+| `map.put(ch, 1)`                                | `map.set(ch, 1)`                             |
+| `map.put(ch, map.get(ch) + 1)`                  | `map.set(ch, map.get(ch)! + 1)`              |
+| `map.get(ch)`                                   | `map.get(ch)`                                |
+| `for(Character key : map.keySet())`             | `for (const key of map.keys())`              |
+| `String str = "automation"`                     | `let str: string = "automation"`             |
+| `str.charAt(i)`                                 | `str.charAt(i)` or `str[i]`                  |
+| `str.length()`                                  | `str.length`                                 |
+| `StringBuffer`                                  | `string[] + join("")`                        |
+| `System.out.println()`                          | `console.log()`                              |
+| `if(ch != ' ')`                                 | `if(ch !== " ")`                             |
+| `return;`                                       | `return;`                                    |
+| `public static void main(String[] args)`        | `public static main(): void`                 |
+ */
+
+/* 
+| Java                             | TypeScript                  |
+| -------------------------------- | --------------------------- |
+| `ArrayList<Character>`           | `string[]`                  |
+| `ArrayList<Integer>`             | `number[]`                  |
+| `HashSet<Character>`             | `Set<string>`               |
+| `LinkedHashSet<Character>`       | `Set<string>`               |
+| `HashMap<Character,Integer>`     | `Map<string, number>`       |
+| `list.contains(ele)`             | `list.includes(ele)`        |
+| `list.add(ele)`                  | `list.push(ele)`            |
+| `set.add(ele)`                   | `set.add(ele)`              |
+| `set.contains(ele)`              | `set.has(ele)`              |
+| `map.containsKey(key)`           | `map.has(key)`              |
+| `map.put(key,value)`             | `map.set(key,value)`        |
+| `StringBuffer`                   | `string[] + join("")`       |
+| `char[] arr = str.toCharArray()` | `const arr = str.split("")` |
+| `String.valueOf(ch)`             | `String(ch)`                |
+| `Character.isDigit(ch)`          | `/[0-9]/.test(ch)`          |
+| `Character.isLetter(ch)`         | `/[a-zA-Z]/.test(ch)`       |
+| `Character.toLowerCase(ch)`      | `ch.toLowerCase()`          |
+| `Character.toUpperCase(ch)`      | `ch.toUpperCase()`          |
+ */
