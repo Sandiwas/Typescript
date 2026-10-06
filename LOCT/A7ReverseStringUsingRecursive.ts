@@ -14,3 +14,23 @@ class ReverseStringUsingRecursive {
 }
 
 ReverseStringUsingRecursive.main();
+
+
+// reverseString("java")
+//     ↓
+// reverseString("ava") + "j"
+//     ↓
+// reverseString("va") + "a"
+//     ↓
+// reverseString("a") + "v"
+//     ↓
+// reverseString("") + "a"
+//     ↓
+// ""
+
+// Now returning back:
+
+// "" + "a"      = "a"
+// "a" + "v"     = "av"
+// "av" + "a"    = "ava"
+// "ava" + "j"   = "avaj"
