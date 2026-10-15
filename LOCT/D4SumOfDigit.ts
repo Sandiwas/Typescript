@@ -12,6 +12,7 @@ class SumOfDigit {
       sum = sum + digit;
     }
     console.log("sum of number of digit ", sum);
+ 
   }
 }
 
