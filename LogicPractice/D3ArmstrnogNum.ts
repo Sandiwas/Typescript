@@ -35,6 +35,15 @@ ArmstrnogNum.main();
 | Execution            | JVM                                      | Browser / Node.js                     |
 | Class Call           | `checkArmstrongNumber(n);`               | `this.checkArmstrongNumber(n);`       |
 | String Interpolation | `"Value = " + n`                         | `` `Value = ${n}` ``                  |
-| Armstrong Logic      | `n = n / 10` ✅                           | `n = Math.floor(n / 10)` ✅         |
+| Armstrong Logic      | `n = n / 10` ✅                           | `n = Math.floor(n / 10)` ✅ 
+
+//`Math.floor(). this method help to remove decimal `|
 
  */
+
+// | Iteration | n (before) | a = n % 10 | n = Math.floor(n / 10) | c = c + a³ |
+// | --------- | ---------- | ---------- | ---------------------- | ---------- |
+// | Initial   | 153        | -          | -                      | 0          |
+// | 1         | 153        | 3          | 15                     | 27         |
+// | 2         | 15         | 5          | 1                      | 152        |
+// | 3         | 1          | 1          | 0                      | 153        |
