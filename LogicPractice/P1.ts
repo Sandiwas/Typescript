@@ -5,7 +5,7 @@ class P1 {
       let line = "";
       for (let j = 1; j <= 4; j++) {
         line += ch;
-      }
+      } 
       console.log(line);
     }
   }

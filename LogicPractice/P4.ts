@@ -17,3 +17,8 @@ class P4 {
 
 
 P4.main();
+
+
+//Outer loop (i) → Controls rows.
+//Second loop (j) → Prints spaces.
+//Third loop (k) → Prints symbols.
